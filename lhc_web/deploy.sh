@@ -41,19 +41,19 @@ rm -rf ./design/defaulttheme/js/voice/*.js.map
 rm -rf ./design/defaulttheme/js/voice/*.js
 
 echo "Compiling admin react apps"
-cd ./design/defaulttheme/js/admin && npm run build
+cd ./design/defaulttheme/js/admin && yarn run build
 cd ../../../../
 
 echo "Compiling react-js"
-cd ./design/defaulttheme/widget/react-app && npm run build
+cd ./design/defaulttheme/widget/react-app && yarn run build
 cd ../../../../
 
 echo "Compiling wrapper"
-cd ./design/defaulttheme/widget/wrapper && npm run build
+cd ./design/defaulttheme/widget/wrapper && yarn run build
 cd ../../../../
 
 echo "Voice"
-cd ./design/defaulttheme/widget/voice-call-operator && npm run build
+cd ./design/defaulttheme/widget/voice-call-operator && yarn run build
 cd ../../../../
 
 echo "Generating JS/CSS files"
