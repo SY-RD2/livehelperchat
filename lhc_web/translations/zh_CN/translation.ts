@@ -7329,7 +7329,7 @@
     </message>
     <message>
       <source>Previous conversation</source>
-      <translation type="unfinished"/>
+      <translation>之前的对话</translation>
     </message>
     <message>
       <source>Hide</source>
